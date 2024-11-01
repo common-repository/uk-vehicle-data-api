@@ -1,0 +1,70 @@
+/** plugin styles **/
+
+#btnPost{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+width:97% !important;
+height:4em !important; 
+border: 1px solid #2E1C1C /*{d-bup-border}*/;
+border-radius: 4px;
+background-color: rgba(255,255,234,1.0);
+color:green !important;
+font-size: 1em;
+	font-weight: bold;
+}
+.popup-trigger { 
+display: block; 
+margin: 0 auto; 
+padding: 20px; 
+max-width: 260px; 
+background: #4EBD79; 
+color: #fff;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+line-height: 24px;
+cursor: pointer;
+}
+.popup {
+display: none; 
+width: 800px !important;
+height:500px !important;
+position: absolute !important;
+margin-top:-500px;
+margin-left:-400px;
+padding: 50px 30px !important;
+background: #fff !important;
+color: #333 !important;
+font-size:19px !important; 
+line-height: 30px !important;
+border: 10px solid #150E2D !important;
+z-index: 9999 !important;
+}
+.popup-mobile {
+position: relative !important;
+top: 0 !important;
+left: 0 !important;
+margin: 30px 0 0 !important;
+width: 100% !important;
+}		
+.popup-btn-close {
+position: absolute;
+ top: 8px;
+ right: 14px;
+ color: #4EBD79;
+ font-size: 14px;
+ font-weight: bold;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+.car_data{
+
+position: relative !important;
+width:100% !important;
+height:100% !important;
+background-color: rgba(255,255,234,1.0);
+
+
+}
